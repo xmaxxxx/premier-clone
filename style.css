@@ -679,3 +679,252 @@ html,body{
     width: 100%;
     /* background-color: red; */
 }
+
+
+/* Mobile devices (max-width: 768px) */
+@media only screen and (max-width: 768px) {
+    /* Header */
+    #nav {
+      flex-direction: column;
+      align-items: center;
+      padding: 10px;
+    }
+    #nav h1 {
+      font-size: 24px;
+    }
+    #nav h3 {
+      font-size: 18px;
+    }
+  
+    /* Main content */
+    #center {
+      padding: 20px;
+    }
+    #content {
+      height: 300px;
+    }
+    #overlay {
+      height: 150px;
+    }
+    #video-text {
+      font-size: 18px;
+    }
+    #video-text h1 {
+      font-size: 24px;
+    }
+    #video-text-bottom {
+      font-size: 14px;
+    }
+  
+    /* Scroll section */
+    #scroll {
+      height: 200px;
+    }
+    #image {
+      width: 100%;
+      height: 150px;
+    }
+    #scroll img {
+      width: 50%;
+      height: 100px;
+    }
+  
+    /* Nav 2 */
+    #nav-2 {
+      flex-direction: column;
+      align-items: center;
+      padding: 10px;
+    }
+    #nav-2 h1 {
+      font-size: 18px;
+    }
+  
+    /* Bottom sections */
+    #bottom {
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+    }
+    #left-1 {
+      width: 100%;
+      height: 200px;
+    }
+    #right-1 {
+      width: 100%;
+      height: 200px;
+    }
+    #text {
+      font-size: 14px;
+    }
+    #bottom-2 {
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+    }
+    #left-2 {
+      width: 100%;
+      height: 200px;
+    }
+    #right-2 {
+      width: 100%;
+      height: 200px;
+    }
+    #bottom-3 {
+      height: 300px;
+    }
+    #bottom-3 img {
+      width: 100%;
+      height: 300px;
+    }
+  
+    /* Last section */
+    #last-section {
+      padding: 20px;
+    }
+    #last-section h1 {
+      font-size: 24px;
+    }
+    .elem {
+      flex-direction: column;
+      align-items: center;
+      padding: 10px;
+    }
+    .elem img {
+      width: 50%;
+      height: 100px;
+    }
+    .elem h2 {
+      font-size: 18px;
+    }
+    .elem h3 {
+      font-size: 14px;
+    }
+  
+    /* Bottom nav */
+    #bottom-nav {
+      flex-direction: column;
+      align-items: center;
+      padding: 10px;
+    }
+    #bottom-nav h1 {
+      font-size: 18px;
+    }
+  }
+  
+  /* Smaller mobile devices (max-width: 480px) */
+  @media only screen and (max-width: 480px) {
+    /* Header */
+    #nav {
+      padding: 5px;
+    }
+    #nav h1 {
+      font-size: 18px;
+    }
+    #nav h3 {
+      font-size: 14px;
+    }
+  
+    /* Main content */
+    #center {
+      padding: 10px;
+    }
+    #content {
+      height: 200px;
+    }
+    #overlay {
+      height: 100px;
+    }
+    #video-text {
+      font-size: 14px;
+    }
+    #video-text h1 {
+      font-size: 18px;
+    }
+    #video-text-bottom {
+      font-size: 12px;
+    }
+  
+    /* Scroll section */
+    #scroll {
+      height: 150px;
+    }
+    #image {
+      width: 100%;
+      height: 100px;
+    }
+    #scroll img {
+      width: 30%;
+      height: 50px;
+    }
+  
+    /* Nav 2 */
+    #nav-2 {
+      padding: 5px;
+    }
+    #nav-2 h1 {
+      font-size: 14px;
+    }
+  
+    /* Bottom sections */
+    #bottom {
+      padding: 10px;
+    }
+    #left-1 {
+      width: 100%;
+      height: 150px;
+    }
+    #right-1 {
+      width: 100%;
+      height: 150px;
+    }
+    #text {
+      font-size: 12px;
+    }
+    #bottom-2 {
+      padding: 10px;
+    }
+    #left-2 {
+      width: 100%;
+      height: 150px;
+    }
+    #right-2 {
+      width: 100%;
+      height: 150px;
+    }
+    #bottom-3 {
+      height: 200px;
+    }
+    #bottom-3 img {
+      width: 100%;
+      height: 200px;
+    }
+  
+    /* Last section */
+    #last-section {
+      padding: 10px;
+    }
+    #last-section h1 {
+      font-size: 18px;
+    }
+    .elem {
+      padding: 5px;
+    }
+    .elem img {
+      width: 30%;
+      height: 50px;
+    }
+    .elem h2 {
+      font-size: 14px;
+    }
+    .elem h3 {
+      font-size: 12px;
+    }
+  
+    /* Bottom nav */
+    #bottom-nav {
+      padding: 5px;
+    }
+    #bottom-nav h1 {
+      font-size: 14px;
+    }
+  }
